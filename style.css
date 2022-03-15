@@ -5,15 +5,33 @@ html {
   font-size: 15px;
 }
 
+body {
+  margin: 0 auto;
+}
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
 
+p {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
 .pink {
   background-color: #ffefef;
+  text-align: center;
 }
 
 .blue {
   background-color: rgb(203, 238, 250);
+  margin: 0 auto;
+  max-width: 1040px;
+}
+
+.dish {
+  width: 250px;
+  padding: 10px;
 }
